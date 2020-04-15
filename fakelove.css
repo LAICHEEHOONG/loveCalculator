@@ -1,0 +1,48 @@
+body {
+    background-color: #fff0f5;
+}
+
+.row {
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 5px #f8e1f4;
+}
+
+img:hover {
+    box-shadow: 5px 5px 5px 5px #efa8e4;
+}
+
+.percentage {
+    margin-top: 7%;
+}
+
+.btn {
+   
+    margin-bottom: 7%;
+}
+
+.bottom {
+    background-color: #fff0f5;
+    height: 100px;
+    width: 100%;
+}
+
+.me,
+.park {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+}
+
+@media (max-width: 1000px) {
+    img {
+        width: 35%;
+        
+    }
+}
+
